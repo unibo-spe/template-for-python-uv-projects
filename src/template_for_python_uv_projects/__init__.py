@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger("uv_python_project_template")
+logger = logging.getLogger("template_for_python_uv_projects")
 
 
 class MyClass:
@@ -9,4 +9,4 @@ class MyClass:
         return "Hello World"
 
 
-logger.info("uv_python_project_template loaded")
+logger.info("template_for_python_uv_projects loaded")
